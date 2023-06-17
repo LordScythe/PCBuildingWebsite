@@ -55,16 +55,23 @@ function Navbar(){
                 <input className="form-control me-1" type="search" placeholder="Search" aria-label="Search"/>
                 <button className="btn btn-outline-success" type="submit">Search</button>
                 </form>
-                <ul className="navbar-nav ms-auto">
-                    <li className="nav-item">
-                        <a className="nav-link" aria-current="page" role="button" aria-expanded="false" href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item me-4">
+                    <a class="nav-link" aria-current="page" role="button" aria-expanded="false" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-basket3-fill" viewBox="0 0 16 16">
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.468 15.426.943 9h14.114l-1.525 6.426a.75.75 0 0 1-.729.574H3.197a.75.75 0 0 1-.73-.574z"/>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" role="button" aria-expanded="false" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
                           <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                           <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
                         </svg>
-                        </a>
-                    </li>
-                </ul>
+                      </a>
+                  </li>
+              </ul>
             </div>
             </div>
         </nav>
